@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324.5 373.95">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f5a579;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 19px;
+      }
+
+      .cls-3 {
+        fill: #d89005;
+        stroke: #d89005;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-width: 8px;
+      }
+
+      .cls-6 {
+        fill: #efe0b6;
+        stroke: #efe0b6;
+      }
+
+      .cls-4 {
+        fill: #7f1430;
+        stroke: #7f1430;
+      }
+
+      .cls-5 {
+        fill: #ad1738;
+        stroke: #ad1738;
+      }
+    </style>
+  </defs>
+  <g id="Livello_3" data-name="Livello 3">
+    <rect class="cls-4" x="7.9" y="6.98" width="50.6" height="322.28" rx="12.66" ry="12.66"/>
+    <rect class="cls-6" x="4.46" y="300.64" width="272.06" height="41.85" rx="20.44" ry="20.44"/>
+    <rect class="cls-6" x="43.35" y="257.09" width="243.29" height="85.4" rx="21.32" ry="21.32"/>
+  </g>
+  <g id="Livello_4" data-name="Livello 4">
+    <path class="cls-3" d="m104.51,357.49l-10-7.21-11.8,8.56c-13.51,11.5-13.51,2.47-13.51-6.09v-20.43h50.62v20.43c0,8.56-1.83,16.4-15.31,4.74Z"/>
+    <path class="cls-5" d="m233.95,346.74l-10-7.21-11.8,8.56c-13.51,11.5-13.51,2.47-13.51-6.09v-20.43h50.62v20.43c0,8.56-1.83,16.4-15.31,4.74Z"/>
+    <path class="cls-4" d="m308.57,145.51l-7.21,10,8.56,11.8c11.5,13.51,2.47,13.51-6.09,13.51h-20.43v-50.62h20.43c8.56,0,16.4,1.83,4.74,15.31Z"/>
+  </g>
+  <g id="Livello_2" data-name="Livello 2">
+    <path class="cls-5" d="m43.35,6.98h227.72c6.81,0,12.34,5.53,12.34,12.34v264.37c0,6.81-5.53,12.34-12.34,12.34H43.35V6.98h0Z"/>
+    <path class="cls-2" d="m180.02,245.05l-.24-64.3m.24-36.74l-19.59-.03s14.03,11.43,18.94,36.86m.18.37c4.9-25.68,19.08-37.18,19.08-37.18h-19.59m.26-40.24l-.26,32.8m.5-69.53l-19.59-.03s14.03,11.43,18.94,36.86m.18.37c4.9-25.68,19.08-37.18,19.08-37.18h-19.59m-57.42,177.99l-.24-141.27m.24-36.74l-19.59-.03s14.03,11.43,18.94,36.86m.18.37c4.9-25.68,19.08-37.18,19.08-37.18h-19.59"/>
+  </g>
+  <g id="Livello_5" data-name="Livello 5">
+    <line class="cls-1" x1="33.2" y1="329.32" x2="180.24" y2="329.32"/>
+    <line class="cls-1" x1="33.2" y1="318.59" x2="267.28" y2="318.59"/>
+  </g>
+</svg>
