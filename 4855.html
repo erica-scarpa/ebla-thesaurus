@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A.AM – Thesaurus of the Eblaite Language</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap & Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.datatables.net/v/bs5/jq-3.6.0/jszip-2.5.0/dt-1.13.1/b-2.3.3/b-html5-2.3.3/b-print-2.3.3/fh-3.3.1/r-2.4.0/sb-1.4.0/datatables.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="index.html"><img src="assets/logo.svg" alt="Logo" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Index</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+                <div class="col d-flex align-items-center justify-content-end">
+                    <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                        <a class="nav-link" id="navbarDropdown" href="https://github.com/erica-scarpa/ebla-thesaurus"
+                            role="button">
+                            <i class="fa-brands fa-github fa-2x "></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <div class="col">
+
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <h1 class="card-title">A.AM</h1>
+
+                    </div>
+
+                    <p class="card-text">
+                        <i class="fa-solid fa-link fa-1x"></i> <span class="badge bg-body-secondary uri"><a
+                                href="https://purl.org/ebla-thesaurus/4855">https://purl.org/ebla-thesaurus/4855</a></span>
+                    </p>
+                    
+                    <div class="card mb-4 bg-light">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="pb-1 text-md-start">
+                                    <h5 class="skos-info"><i class="fa-solid fa-circle-question"
+                                            data-bs-toggle="tooltip"
+                                            title="skos:definition. Provides a detailed description of the meaning of a concept."></i>
+                                        Definition</h5>
+                                </div>
+                                <div class="text-md-start">
+                                    <ul class="list-group list-unstyled">
+                                        
+                                        <li>A function.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                    
+                    
+
+                    
+
+                    
+                    <div class="card mb-4 bg-light">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="pb-1 text-md-start">
+                                    <h5 class="skos-info"><i class="fa-solid fa-circle-question"
+                                            data-bs-toggle="tooltip"
+                                            title="skos:related. Represents a relationship between two concepts that are related but do not necessarily fall into a hierarchical or broader/narrower relationship."></i>
+                                        Related concept(s)</h5>
+                                </div>
+                                <div class="text-md-start">
+                                    <ul class="list-group list-unstyled">
+                                        
+                                        
+                                        <li>
+                                            <a href="8291.html"
+                                                class="text-decoration-none">
+                                                A.AM-A.AM
+                                            </a>
+                                        </li>
+                                        
+                                        
+                                        <li>
+                                            <a href="1494.html"
+                                                class="text-decoration-none">
+                                                A.AM-AM
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+
+                    <div class="d-flex justify-content-end">
+                        <a href="index.html" class="btn btn-primary mt-4 mb-4">Back to Index</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-body-tertiary footer">
+        <div class="container p-4 text-center">
+            <!-- Footer content -->
+            <div class="text-md-start">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <p class="text-body-secondary small text-center">A SKOS thesaurus on the Eblaite language</p>
+                        <p class="text-center"><a href="https://orcid.org/0000-0001-6250-304X" target="_blank"><i
+                                    class="fa-brands fa-orcid"></i></a> <a href="https://github.com/erica-scarpa"
+                                target="_blank"><i class="fa-brands fa-github"></i></a> <a
+                                href="https://github.com/erica-scarpa" target="_blank"></a></p>
+                        <hr class="short-hr">
+                        <p class="text-center"> <a href="https://erica-scarpa.github.io/" target="_blank"><img
+                                    src="assets/logo.svg" height="25" alt="" loading="lazy" /></a></p>
+
+
+                    </div>
+                    <div class="col-lg-9 col-md-6 mb-4 mb-md-0">
+                        <div class="row collections">
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Agriculture" href="Agriculture.html">
+                                            <i class="fa-solid fa-wheat-awn"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Animals" href="Animals.html">
+                                            <i class="fas fa-otter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Buildings" href="Buildings.html">
+                                            <i class="fas fa-solid fa-hotel"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Colors" href="Colors.html">
+                                            <i class="fas fa-palette"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Craftsmanship" href="Craftsmanship.html">
+                                            <i class="fas fa-solid fa-hammer"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div title="Death" class="card-body align-self-center">
+                                        <a href="Death.html">
+                                            <i class="fa-solid fa-skull"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Food" href="Food.html">
+                                            <i class="fa-solid fa-carrot"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Functions" href="Functions.html">
+                                            <i class="fas fa-user-tie"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Jewels" href="Jewels.html">
+                                            <i class="fas fa-solid fa-ring"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div title="Plants" class="card-body align-self-center">
+                                        <a href="Plants.html">
+                                            <i class="fa-solid fa-plant-wilt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div title="Religion" class="card-body align-self-center">
+                                        <a href="Religion.html">
+                                            <i class="fas fa-solid fa-ankh"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Stones" href="Stones.html">
+                                            <i class="fa-regular fa-gem"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row collections">
+                            <div class="col mt-3">
+                                <div class="card card-collection">
+                                    <div class="card-body align-self-center">
+                                        <a title="Textiles" href="Textiles.html">
+                                            <i class="fas fa-shirt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                            <div class="col mt-3"></div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center bg-body-secondary p-3 small">
+            <p xmlns:cc="http://creativecommons.org/ns#">&copy; 2024 Erica Scarpa. This work is licensed under <a
+                    href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
+                    rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img
+                        style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="assets/cc.svg"
+                        alt=""><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="assets/by.svg" alt=""></a>
+            </p>
+        </div>
+    </footer>
+
+
+
+</body>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+<script src="script/tooltip.js"></script>
+
+</body>
+
+</html>
