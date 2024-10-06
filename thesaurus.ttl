@@ -170,6 +170,7 @@
 
 <https://purl.org/ebla-thesaurus/679> a skos:Concept ;
     skos:prefLabel "E₂-DINGIR-DINGIR-DINGIR"@en ;
+    skos:hiddenLabel "E2-DINGIR-DINGIR-DINGIR"@en ;
     skos:definition "'Temple of the deified ancestors'."@en ;
     skos:note "Pasquali, 'É dingir-dingir(-dingir)' (2023)"@en ;
     skos:related <https://purl.org/ebla-thesaurus/13552>;
@@ -180,6 +181,7 @@
 
 <https://purl.org/ebla-thesaurus/400007> a skos:Concept ;
     skos:prefLabel "E₂-TI-TUG₂"@en ;
+    skos:hiddenLabel "E2-TI-TUG2"@en ;
     skos:definition "'A warehouse of clothing; house of the garments (an administrative unit of the Palace)'."@en  ;
     skos:note "Archi, ARET XX (2018), s.v., 273"@en, "Archi, ARET XIV (2023), s.v., 530"@en ;
     skos:related <https://purl.org/ebla-thesaurus/400006> ;
@@ -189,6 +191,7 @@
 
 <https://purl.org/ebla-thesaurus/77> a skos:Concept ;
     skos:prefLabel "GADA-TUG₂"@en ;
+    skos:hiddenLabel "GADA-TUG2"@en ;
     skos:definition "'Linen robe or fabric'; ▶︎ gada may refer to both fabric and linen plant/seed, but the presence of the determinative suggests GADA-TUG₂ refers specifically to a linen robe or fabric."@en ;
     skos:note "Marchesi, 'Plants and Trees' (2013), 276"@en ;
     skos:narrower <https://purl.org/ebla-thesaurus/1923>, <https://purl.org/ebla-thesaurus/400001> ;
@@ -204,6 +207,7 @@
 
 <https://purl.org/ebla-thesaurus/400001> a skos:Concept ;
     skos:prefLabel "GIB₃.GARIG.TUR"@en ;
+    skos:hiddenLabel "GIB3.GARIG.TUR"@en ;
     skos:note "Marchesi, 'Plants and Trees' (2013), 276."@en ;
     skos:notation "400001" ;
     skos:editorialNote "Not attested in the EbDA database."@en ;
@@ -211,6 +215,7 @@
 
 <https://purl.org/ebla-thesaurus/2314> a skos:Concept ;
     skos:prefLabel "GANA₂-KI"@en ;
+    skos:hiddenLabel"GANA2-KI"@en ;
     skos:definition "'Plot of land'. See also VE 842-844."@en ;
     skos:notation "2314" ;
     skos:inScheme <> ;
@@ -218,6 +223,7 @@
 
 <https://purl.org/ebla-thesaurus/138> a skos:Concept ;
     skos:prefLabel "GID₂-TUG₂"@en ;
+    skos:hiddenLabel "GID2-TUG2"@en ;
     skos:definition "'Long garment', see VE 859 gid₂<sup>tug₂</sup> / <i>gu-da-num</i>₂, maybe related to √qtn, 'to be thin'."@en ;
     skos:note "Archi, ARET XIX (2023), s.v., 533"@en ;
     skos:notation "138" ;
@@ -235,7 +241,8 @@
 
 <https://purl.org/ebla-thesaurus/1955> a skos:Concept ;
     skos:prefLabel "GIŠ-DU"@en ;
-    skos:definition "'Anklet?'; See VE 362 giš-DU / <i>pa</i>₂<sup>!</sup>(IGI)-<i>a-tu</i>, /paʿamtu/, “foot”. See Pasquali, Lessico (2005), 35 with bibliography."@en ;
+    skos:hiddenLabel "GISH-DU"@en ;
+    skos:definition "'Anklet?'; See VE 362 giš-DU / <i>pa</i>₂<sup>!</sup>(IGI)-<i>a-tu</i>, /paʿamtu/, 'foot'."@en ;
     skos:notation "1955" ;
     skos:note "Pasquali, Lessico (2005), 35"@en, "Hajouz, 'Wortschatz' (2013), 519"@en ;
     skos:inScheme <> ;
@@ -243,6 +250,7 @@
 
 <https://purl.org/ebla-thesaurus/2223> a skos:Concept ;
     skos:prefLabel "gu₂-bar"@en ;
+    skos:hiddenLabel "gu2-bar"@en ;
     skos:definition "<i>KUBĀRUM</i>, measure for arids; the origin of term, which is transliterated as <i>gu</i>₂-<i>bar</i>, gu₂-bar, or GU₂-BAR depending on the interpretation, is still debated. Marchesi ('Plants and Trees' [2013], esp. 87n30, with bibliography) reads it an Akkadogram for <i>kubārum</i> «“the large one” (of the measuring vessels).» Known only at Ebla, it was used for the measurement of arids: it corresponds to 120 <i>assammū</i> (AN.ZAM, uncertain capacity). Scholars suggest a value of 0.16, 0.5, 0.6, or 0.85 litres: correspondingly, a kubārum could be of 19.2, 60, 72, or 102 litres."@en ;
     skos:notation "2223" ;
     skos:note "Marchesi, 'Plants and Trees' (2013), esp. 87n30"@en ;
@@ -251,6 +259,7 @@
 
 <https://purl.org/ebla-thesaurus/15738> a skos:Concept ;
     skos:prefLabel "GUDU₄"@en ;
+    skos:hiddenLabel "GUDU4"@en ;
     skos:definition "'(a medicinal plant, probably Acacia)', used to cure cattle; see also VE 291. Wr. ▶︎ <sup>giš</sup>gudu₄, ▶︎ <sup>u₂</sup>gudu₄"@en ;
     skos:note "Fronzaroli, 'Veterinary Prescription (2005), 90–91"@en, "Catagnoti, 'Piante medicinali' (2018), 134, 137–138"@en ;
     skos:notation "15738" ;
@@ -259,6 +268,7 @@
 
 <https://purl.org/ebla-thesaurus/11809> a skos:Concept ;
     skos:prefLabel "GIŠ-ir-zu₂"@en ;
+    skos:hiddenLabel "GISH-ir-zu2"@en ;
     skos:definition "'Saffron yellow; orange'; From West. Sem. √wrs, 'plante tinctoriale servant à teindre en jaune rougeâtre'."@en ;
     skos:note "DRS W (1997), 631"@en, "Pasquali, Lessico (2005), 24n106"@en ;
     skos:notation "11809" ;
@@ -276,6 +286,7 @@
 
 <https://purl.org/ebla-thesaurus/1608> a skos:Concept ;
     skos:prefLabel "KI-SA₂"@en ;
+    skos:hiddenLabel "KI-SA2"@en ;
     skos:definition "'retaining wall'; built in stone."@en ;
     skos:note "Molina and Steinkeller, 'Wax Boards' (2023), 43"@en ;
     skos:example "na₄-na₄ ki-sa₂ e₂ en stone for the palace of the king (ARET I 16 = MEE 2 8 = TM.75.G.1278 rev.IV:17-19)."@en ;
@@ -285,6 +296,7 @@
 
 <https://purl.org/ebla-thesaurus/1497> a skos:Concept ;
     skos:prefLabel "KU₃-SAL"@en ;
+    skos:hiddenLabel "KU3-SAL"@en ;
     skos:definition "'Buckle<sup>?</sup>'."@en ;
     skos:note "Archi, 'Jewels' (2002)"@en ;
     skos:notation "1497" ;
@@ -293,6 +305,7 @@
 
 <https://purl.org/ebla-thesaurus/1231> a skos:Concept ;
     skos:prefLabel "GA₂×LA₂"@en ;
+    skos:hiddenLabel "GA2xLA2"@en ;
     skos:definition "'Weighting; of the weight of'."@en ;;
     skos:notation "1231" ;
     skos:inScheme <> ;
@@ -301,6 +314,7 @@
 
 <https://purl.org/ebla-thesaurus/5529> a skos:Concept ;
     skos:prefLabel "LAGAB×LA₂"@en ;
+    skos:hiddenLabel "LAGABxLA2"@en ;
     skos:notation "5529" ;
     skos:inScheme <> .
 
@@ -330,6 +344,7 @@
 
 <https://purl.org/ebla-thesaurus/16655> a skos:Concept ;
     skos:prefLabel "ma-i-ḫu"@en ;
+    skos:hiddenLabel "ma-i-hu"@en ;
     skos:definition "'One hundred thousand'; also wr. ▶︎ ma-i-at."@en ;
     skos:note "Bonechi, 'Lexical Numbers' (2021)"@en ;
     skos:notation "16655" ;
@@ -338,6 +353,7 @@
 
 <https://purl.org/ebla-thesaurus/16571> a skos:Concept ;
     skos:prefLabel "ma-ḫu-at"@en ;
+    skos:hiddenLabel "ma-hu-at"@en ;
     skos:definition "'One million'."@en ;
     skos:note "Bonechi, 'Lexical Numbers' (2021)"@en ;
     skos:notation "16571" ;
@@ -354,6 +370,7 @@
 
 <https://purl.org/ebla-thesaurus/1021> a skos:Concept ;
     skos:prefLabel "GIŠ-nu-kiri₆"@en ;
+    skos:hiddenLabel "GISH-nu-kiri6"@en ;
     skos:definition "'Garden, grove'."@en ;
     skos:note "Archi, 'Minima Eblaitica 29' (2023)"@en ;
     skos:notation "1021" ;
@@ -394,6 +411,7 @@
 
 <https://purl.org/ebla-thesaurus/4299> a skos:Concept ;
     skos:prefLabel "nab-ḫu"@en ;
+    skos:hiddenLabel "nab-hu"@en ;
     skos:definition "'Rock crystal'; wr. also ▶︎ NA₄-MUL-ḫu, ▶︎ na-ba-ḫu."@en ;
     skos:note "Pasquali, 'Cristal de roche' (2022)"@en ;
     skos:notation "4299" ;
@@ -403,6 +421,7 @@
 
 <https://purl.org/ebla-thesaurus/400003> a skos:Concept ;
     skos:prefLabel "NA₄-MUL-ḫu"@en ;
+    skos:hiddenLabel "NA4-MUL-hu"@en ;
     skos:definition "Alternate spelling for ▶︎ <i>nab-ḫu</i>, 'rock crystal'."@en ;
     skos:notation "400003" ;
     skos:editorialNote "Not attested in the EbDA database."@en ;
@@ -410,6 +429,7 @@
 
 <https://purl.org/ebla-thesaurus/400004> a skos:Concept ;
     skos:prefLabel "na-ba-ḫu"@en ;
+    skos:hiddenLabel "na-ba-hu"@en ;
     skos:definition "Alternate spelling for ▶︎ <i>nab-ḫu</i>, 'rock crystal'."@en ;
     skos:notation "400004" ;
     skos:editorialNote "Not attested in the EbDA database."@en ;
@@ -425,14 +445,25 @@
 
 <https://purl.org/ebla-thesaurus/13113> a skos:Concept ;
     skos:prefLabel "NIG₂-KAR"@en ;
-    skos:definition "'To drag away'. Related to VE 73 and 74, nig₂-kar = <i>sa</i>-ʾ<i>a</i>₃-<i>bu</i>₃ and nig₂-kar-kar = <i>dal-da-i-bu</i>₃, to be related to √šḥb/√sḥb, 'to drag, to pull away' "@en;
+    skos:hiddenLabel "NIG2-KAR"@en ;
+    skos:definition "'To drag away'. Related to VE 73 and 74, nig₂-kar = <i>sa</i>-ʾ<i>a</i>₃-<i>bu</i>₃ and nig₂-kar-kar = <i>dal-da-i-bu</i>₃, to be related to √šḥb/√sḥb, 'to drag, to pull away'."@en;
     skos:notation "13113" ;
     skos:note "Maiocchi, 'Legal Regulations (2024), 7"@en ;
     skos:inScheme <> ;
     skos:topConceptOf <> .
 
+<https://purl.org/ebla-thesaurus/385> a skos:Concept ;
+    skos:prefLabel "NIG₂-MU-SA₂"@en ;
+    skos:hiddenLabel "NIG2-MU-SA2"@en ;
+    skos:definition "'Bridewealth'. A ‘syllabic’ local variant of Sumerian nig₂-mussaₓ(SAL.US₂)<sup>sa₂</sup>, literally 'that which belongs to the son-in-law', as Sumerian mussaₓ is the term the family of the bride uses to address the husband. At Ebla, often appears <i>in</i> the expression in ud nig₂-mu-sa₂, describing the moment of the bridewealth delivery by the groom's family."@en;
+    skos:notation "385" ;
+    skos:note "Scarpa, 'All the King's Sons' (2021), 40-41 with bibliography."@en ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
 <https://purl.org/ebla-thesaurus/9015> a skos:Concept ;
     skos:prefLabel "NU₁₁-ZA"@en ;
+    skos:hiddenLabel "NU11-ZA"@en ;
     skos:definition "'Decorated'; probably refers to objects decorated with precious stone or gold leaf."@en ;
     skos:notation "9015" ;
     skos:note "Pasquali, 'Comptabilisation des tissus', 409"@en ;
@@ -441,6 +472,7 @@
 
 <https://purl.org/ebla-thesaurus/5528> a skos:Concept ;
     skos:prefLabel "ra-gi-i₃"@en ;
+    skos:hiddenLabel "ra-gi-i3"@en ;
     skos:definition "'Scented ointment'; see also Ug. rqḥ, 'perfume, ointmen' (DUL3, s.v., 735)."@en ;
     skos:example "4 KIN siki / nig₂-sa₁₀ <i>ra-gi-i</i>₃ / <i>MA-LIK-TUM</i> / šu-ba₄-ti 4 KIN of wool, price of the scented ointment of the queen, have been delivered (ARET IV 9 = TM.75.G.1286 rev.VI:1-4)."@en ;
     skos:notation "5528" ;
@@ -450,6 +482,7 @@
 
 <https://purl.org/ebla-thesaurus/15903> a skos:Concept ;
     skos:prefLabel "ri₂-pap"@en ;
+    skos:hiddenLabel "ri2-pap"@en ;
     skos:definition "'Ten thousand'."@en ;
     skos:notation "15903" ;
     skos:note "Bonechi, 'Lexical Numbers' (2021)"@en ;
@@ -458,6 +491,7 @@
 
 <https://purl.org/ebla-thesaurus/10372> a skos:Concept ;
     skos:prefLabel "SI-UDU-UR₄"@en ;
+    skos:hiddenLabel "SI-UDU-UR4"@en ;
     skos:definition "'Plucked wool''."@en ;
     skos:notation "10372" ;
     skos:note "Lahlouh and Catagnoti, ARET XII (2006), 579 s.v."@en ;
