@@ -102,7 +102,7 @@
     skos:topConceptOf <> .
 
 <https://purl.org/ebla-thesaurus/1314> a skos:Concept ;
-    skos:prefLabel "AN.ŠE₃"@explanation ;
+    skos:prefLabel "AN.ŠE₃"@en ;
     skos:hiddenLabel "AN.SHE3"@en ;
     skos:definition "'Upwards; above; in addition to'; See VE 782 AN.ŠE₃ / <i>a-i-num</i>₂, ʿalīnum 'upwards' (Akk. elēnum)."@en ;
     skos:note "Krecher, 'Sumerische und nichtsumerische' (1984), 157"@en, "Conti, 'Sillabario' (1990), 190"@en, "Krebernik and Kogan, 'Eblaite', (2021), 703"@en ;
@@ -263,6 +263,14 @@
     skos:definition "'(a medicinal plant, probably Acacia)', used to cure cattle; see also VE 291. Wr. ▶︎ <sup>giš</sup>gudu₄, ▶︎ <sup>u₂</sup>gudu₄"@en ;
     skos:note "Fronzaroli, 'Veterinary Prescription (2005), 90–91"@en, "Catagnoti, 'Piante medicinali' (2018), 134, 137–138"@en ;
     skos:notation "15738" ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<https://purl.org/ebla-thesaurus/7057> a skos:Concept ;
+    skos:prefLabel "IZI-GAR"@en ;
+    skos:definition "(noun) 'lightning of the braziers'. A ceremony performed during the 10<sup>th</sup> month, which also lends its name to the month itself. See also under <i>ḫur-mu</i>."@en ;
+    skos:note "Catagnoti, 'Subdivision of the Month' (2019), 20"@en ;
+    skos:notation "7057" ;
     skos:inScheme <> ;
     skos:topConceptOf <> .
 
@@ -455,7 +463,9 @@
 <https://purl.org/ebla-thesaurus/385> a skos:Concept ;
     skos:prefLabel "NIG₂-MU-SA₂"@en ;
     skos:hiddenLabel "NIG2-MU-SA2"@en ;
-    skos:definition "'Bridewealth'. A ‘syllabic’ local variant of Sumerian nig₂-mussaₓ(SAL.US₂)<sup>sa₂</sup>, literally 'that which belongs to the son-in-law', as Sumerian mussaₓ is the term the family of the bride uses to address the husband. At Ebla, often appears <i>in</i> the expression in ud nig₂-mu-sa₂, describing the moment of the bridewealth delivery by the groom's family."@en;
+    skos:definition "(noun) 'Bridewealth'. A 'syllabic' local variant of Sumerian nig₂-mussaₓ(SAL.US₂)<sup>sa₂</sup>, literally 'that which belongs to the son-in-law', as Sumerian mussaₓ is the term the family of the bride uses to address the husband. At Ebla, often appears in the expression <i>in</i> ud nig₂-mu-sa₂, describing the moment of the bridewealth delivery by the groom's family."@en ;
+    skos:historyNote "The term is often translated 'marriage' or 'wedding' but it defines a specific moment in the marriage agreement between two families, i.e. the payment of the bride price."@en ;
+    skos:example "53 gin₂-DILMUN ku₃:bar₆ / 6 <i>BU-DI</i> / nig₂-ba / 3 dam / <i>zi-ba-da</i> / <i>in</i> ud / nig₂-mu-sa₂ / dumu-mi₂ / <i>ib-ri</i>₂-<i>um</i>, 53 shekels of silver, 6 toggle-pins, gift for three women of Zibada, on the occasion of the payment of the bridewealth for Ibrium's daughter ARET XXI 3 = TM.75.G.1705+, rev.XI:14-22" ;
     skos:notation "385" ;
     skos:note "Scarpa, 'All the King's Sons' (2021), 40-41 with bibliography."@en ;
     skos:inScheme <> ;
@@ -632,7 +642,7 @@
 <https://purl.org/ebla-thesaurus/Religion> a skos:Collection ;
     skos:prefLabel "Religion"@en ;
     skos:definition "Entries related to cult, religion, and the Eblaite pantheon"@en;
-    skos:member <https://purl.org/ebla-thesaurus/1667> .
+    skos:member <https://purl.org/ebla-thesaurus/1667>, <https://purl.org/ebla-thesaurus/7057> .
 
 <https://purl.org/ebla-thesaurus/Agriculture> a skos:Collection ;
     skos:prefLabel "Agriculture"@en ;
