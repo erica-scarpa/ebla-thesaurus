@@ -270,6 +270,7 @@
     skos:prefLabel "IZI-GAR"@en ;
     skos:definition "(noun) 'lightning of the braziers'. A ceremony performed during the 10<sup>th</sup> month, which also lends its name to the month itself. See also under <i>ḫur-mu</i>."@en ;
     skos:note "Catagnoti, 'Subdivision of the Month' (2019), 20"@en ;
+    skos:example ""@en ;
     skos:notation "7057" ;
     skos:inScheme <> ;
     skos:topConceptOf <> .
@@ -457,6 +458,31 @@
     skos:definition "'To drag away'. Related to VE 73 and 74, nig₂-kar = <i>sa</i>-ʾ<i>a</i>₃-<i>bu</i>₃ and nig₂-kar-kar = <i>dal-da-i-bu</i>₃, to be related to √šḥb/√sḥb, 'to drag, to pull away'."@en;
     skos:notation "13113" ;
     skos:note "Maiocchi, 'Legal Regulations (2024), 7"@en ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<https://purl.org/ebla-thesaurus/1572> a skos:Concept ;
+    skos:prefLabel "NIG₂-KAS₄"@en ;
+    skos:hiddenLabel "NIG2-KAS4"@en ;
+    skos:definition "'Battle; war' or 'journey, expedition; caravan'."@en;
+    skos:historyNote ""@en ;
+    skos:notation "1572" ;
+    skos:related <https://purl.org/ebla-thesaurus/11581>, <https://purl.org/ebla-thesaurus/8060> ;
+    skos:note "Archi, 'Minima Eblaitica 30' (2024)"@en ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<https://purl.org/ebla-thesaurus/11581> a skos:Concept ;
+    skos:prefLabel "NIG₂-KAS₄-KAS₄"@en ;
+    skos:hiddenLabel "NIG2-KAS4-KAS4"@en ;
+    skos:notation "11581" ;
+    skos:inScheme <> ;
+    skos:topConceptOf <> .
+
+<https://purl.org/ebla-thesaurus/8060> a skos:Concept ;
+    skos:prefLabel "NIG₂-KAS₄-NIG₂-KAS₄"@en ;
+    skos:hiddenLabel "NIG2-KAS4-NIG2-KAS4"@en ;
+    skos:notation "8060" ;
     skos:inScheme <> ;
     skos:topConceptOf <> .
 
